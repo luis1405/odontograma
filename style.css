@@ -1,0 +1,80 @@
+
+.odontograma{
+    border: 1px solid #000;
+    position: relative;
+    width: 400px;
+    height:460px;
+}
+.diente{
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    position: absolute;
+    width: 40px;
+    height:40px;
+    z-index: 1000;
+}
+.diente div:hover{
+    transition:.5s;
+}
+
+.Y-diente, .X-diente, .y-diente, .x-diente{
+    width: 18px; 
+    height: 18px; 
+    border: 1px solid #000; 
+    -moz-border-radius: 0 100% 0 0;
+    -webkit-border-radius: 0 100% 0 0;
+    border-radius: 0 100% 0 0;
+    position: absolute;
+    z-index: 2000;
+}
+.o-diente{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height:10px;
+    position: absolute;
+    right: 35%;
+    bottom:35%;
+    z-index: 3000;
+}
+.o-diente:hover{
+    background-color: blueviolet;
+}
+
+.Y-diente{
+    left: 25%;
+    bottom:60%;
+    transform: rotate(-45deg);
+}
+
+.Y-diente:hover{
+    background:  rgb(0, 110, 255);
+}
+
+.X-diente{
+    left: 60%;
+    top:25%;
+    transform: rotate(45deg);
+}
+.X-diente:hover{
+    background: rgb(218, 255, 5);
+}
+
+.y-diente{
+    right: 25%;
+    top:60%;
+    transform: rotate(135deg);
+}
+.y-diente:hover{
+    background: rgb(255, 0, 0); 
+}
+.x-diente{
+    transform: rotate(225deg);
+    bottom: 25%;
+    right: 60%;
+}
+.x-diente:hover{
+    background: rgb(94, 255, 0);
+}
